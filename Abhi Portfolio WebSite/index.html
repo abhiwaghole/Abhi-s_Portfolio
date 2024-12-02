@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi Developer</title>
+
+    <!-- CSS File Linking -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- We hava taken Poppins Font From Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="left">Abhi's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li> <a href="">Project </a> </li>
+                    <li> <a href="">GitHub </a> </li>
+                    <li> <a href="">Contact Me </a> </li>
+                    <li> <a href="">About </a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Main Section -->
+    <main>
+
+        <!-- Fist Section -->
+        <section class="first_section">
+            <div class="left_section"> Hello, My Name is 
+                <span class="purple"> Abhi </span> 
+                <div> And I'm </div>
+                <span id="element"></span>
+            </div>
+            <div class="right_section">
+                <img src="./study_image.png" alt="study image">
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Second Section -->
+        <section class="second_section">
+            <span class="text_gray">In My College Life What Programming Languages I Have Learn...</span>
+            <h1>Technical Skills</h1>
+
+            <div class="box">
+                <div class="verticle_line">
+                    <img class="image_frontend" src="./programmer_logo02.png" alt="">
+
+                    <div class="verticle_title">
+                        FrontEnd Languages
+                    </div>
+                    <div class="verticle_desc">HTML, CSS, JavaScript</div>
+                </div>
+
+                <div class="verticle_line">
+                    <img class="image_frontend" src="./programmer_logo02.png" alt="">
+
+                    <div class="verticle_title">
+                        BacktEnd Languages
+                    </div>
+                    <div class="verticle_desc">Java-7, C, Python</div>
+                </div>
+
+                <div class="verticle_line">
+                    <img class="image_frontend" src="./programmer_logo02.png" alt="">
+
+                    <div class="verticle_title">
+                        DataBase Languages
+                    </div>
+                    <div class="verticle_desc">SQL, PLSQL</div>
+                </div>
+
+                <div class="verticle_line">
+                    <img class="image_frontend" src="./programmer_logo02.png" alt="">
+
+                    <div class="verticle_title">
+                        Framwork/Libraries
+                    </div>
+                    <div class="verticle_desc">Spring Boot, Bootstrap, JQuery</div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer_section">
+            <div class="footer_first">
+                <h3>Abhi Developer Portfolio</h3>
+            </div>
+            <div class="footer_second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact to Developer</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer_rights">
+            <p>Copyright &#169; www.abhisportfolio.com || All Rights Reserved For This Site</p>
+        </div>
+
+    </footer>
+
+
+
+    <!-- Connectiong JS File -->
+    <script src="./logic.js"> </script>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['FrontEnd Developer', 'Backend Developer', 'DataBase Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+
+</html>

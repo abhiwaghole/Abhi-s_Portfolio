@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.03rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 85px 0 ;
+}
+
+.first_section div{
+    width: 30%;
+}
+
+
+.left_section{
+    font-size: 2rem;
+}
+
+.right_section{
+    width: 80px;
+}
+
+.purple{
+    color: rgb(170, 107, 228);
+}
+
+.text_gray{
+    color: gray;
+}
+
+#element{
+    color: rgb(170, 107, 228);
+}
+
+main hr{
+    border: 0;
+    background-color: violet;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+
+.second_section{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second_section h1{
+    font-size: 1.8rem;
+}
+
+.second_section .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.second_section .verticle_line{
+    height: 93px;
+    width: 2px;
+    background-color: white;
+    margin: 0 150px;
+}
+
+.image_frontend{
+    width: 58px;
+    position: relative;
+    top: -58px;     
+    left: -30px;
+}
+
+.verticle_title{
+    position: relative;
+    top: 38px;
+    width: 100px;
+    font-size: 20px;
+}
+
+.verticle_desc{
+    position: relative;
+    top: 40px;
+    color: gray;
+    width: 150px;
+    font-size: 15px;
+}
+
+
+
+footer{
+    background-color: rgb(17, 17, 25);
+    /* height: 235px; */
+}
+
+.footer_section{
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+
+.footer_section ul{
+   list-style-type: none;
+}
+
+/* footer > div{
+    width: 523px;
+} */
+
+footer .footer_rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+
+
+
+
+
